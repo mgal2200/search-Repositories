@@ -385,7 +385,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/repository/repo.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"panel panel-default repo-panel\">\r\n  <div class=\"panel-heading\">\r\n    <h2>\r\n      {{repo.Name}}\r\n    </h2>\r\n  </div>\r\n  <div class=\"panel-body\">\r\n    <h4>\r\n      <a href=\"{{repo.AvatarUrl}}\">{{repo.AvatarUrl}}</a>\r\n    </h4>\r\n  </div>\r\n  <div *ngIf=\"!repo.Marked\" class=\"panel-footer\">\r\n    <label (click)=\"mark(repo)\" class=\"btn btn-default\">\r\n       <span class=\"glyphicon glyphicon-ok\"></span>\r\n    </label>\r\n  </div>\r\n</div>\r\n"
+module.exports = "<div class=\"panel panel-default repo-panel\">\r\n  <div class=\"panel-heading\">\r\n    <h2>\r\n      {{repo.Name}}\r\n    </h2>\r\n  </div>\r\n  <div class=\"panel-body\">\r\n    <h4>\r\n      <a href=\"{{repo.AvatarUrl}}\">{{repo.AvatarUrl}}</a>\r\n    </h4>\r\n  </div>\r\n  <div *ngIf=\"!repo.Marked\" class=\"panel-footer\">\r\n    <label (click)=\"mark(repo)\" class=\"btn btn-default\">\r\n       <span>Mark</span>\r\n    </label>\r\n  </div>\r\n</div>\r\n"
 
 /***/ }),
 
