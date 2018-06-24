@@ -2,9 +2,13 @@
 
 
 
-1. After cloneing this Project  you have 1 Visual Studio solution, this solution includes tow Projects:
-	1. GitHubClient, the service for Searching GitHub Repositories .
-	2. SearchGitHubMVC, to test the Search method of GitHubClient.
+This is an Visual Studio Solution, with tow project:
 
-2. the SearchGitHubMVC is the run Project.
-3. browse to {localHome}/Search.
+1. Class Library proj with a serch repository client, this alows yoww to search Repositories on GitHub.
+
+2. ASP. MVC project including Angualr4 Folder (using angular-cli).
+
+clone the project and runing the MVC Project, the files that needed for angular are already linked  in the _Layout.cshtml file.
+
+for any change in the angulars files you needc to rebuild it in the angular-cli, the output is going to an extra folder named "bundles", in the root folder.
+
