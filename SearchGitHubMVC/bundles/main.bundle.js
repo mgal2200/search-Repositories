@@ -372,7 +372,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, " \r\n.repo-panel {\r\n  height: 100%;\r\n}\r\n\r\n.panel-heading {\r\n  word-break: break-all;\r\n}\r\n\r\n.panel-body {\r\n  word-break: break-all;\r\n}\r\n\r\n.btn span.glyphicon {\r\n  opacity: 0;\r\n}\r\n\r\n.btn.active span.glyphicon {\r\n  opacity: 1;\r\n}\r\n", ""]);
+exports.push([module.i, " \r\n.repo-panel {\r\n  height: 100%;\r\n}\r\n\r\n.panel-heading {\r\n  word-break: break-all;\r\n}\r\n\r\n.panel-body {\r\n  word-break: break-all;\r\n}\r\n\r\n\r\n.btn span.glyphicon {\r\n  opacity: 0      ;\r\n}\r\n\r\n.btn.active span.glyphicon {\r\n  opacity: 1;\r\n}\r\n", ""]);
 
 // exports
 
